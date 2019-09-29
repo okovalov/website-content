@@ -9,7 +9,7 @@ Say you want to add an item to an array, but you don't want to append an item at
 
 That place is called the *index*.
 
-> Array indexes start from `0`, so if you want to add the item first, you'll use index `0`, in the second place the index is `1`, and so on.
+> Array indexes start from `0`, so if you want to add the item first, you'll use index `0`, in the second place the index is `1`, and so on. If index is negative (i.e. `-2`), that means the index is *nth* last element of the array, or, in this example, the index is *the second from the end* element.
 
 To perform this operation you will use the `splice()` method of an array. This function is very powerful and in addition to the use we're going to make now, it also allows to delete items from an array. So, proceed with caution.
 
